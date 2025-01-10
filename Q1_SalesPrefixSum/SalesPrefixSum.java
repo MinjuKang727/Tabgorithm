@@ -17,7 +17,7 @@ public class SalesPrefixSum {
     public static void main(String[] args) {
         // System.out.println("[ 오늘의 문제 : 월간 판매 실적 구간 합 계산하기 ]");
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();  // 판매 데이터 개수
+        int n = 12;  // 판매 데이터 개수
         int[] sales = new int[n];
         for (int i = 0; i < n; i++) {
             sales[i] = sc.nextInt();
